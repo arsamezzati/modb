@@ -1,0 +1,1032 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Messina 41",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "postcode": "98122",
+                "district": "Fondo Polimeni",
+                "suburb": "IV Circoscrizione",
+                "street": "Viale Boccetta",
+                "lon": 15.5547254,
+                "lat": 38.1978382,
+                "formatted": "Messina 41, Viale Boccetta, 98122 Messina ME, Italy",
+                "address_line1": "Messina 41",
+                "address_line2": "Viale Boccetta, 98122 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.guest_house"
+                ],
+                "details": [
+                    "details",
+                    "details.contact"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Messina 41",
+                        "wifi": "free",
+                        "email": "info@messina41.it",
+                        "phone": "+39 090 361303",
+                        "osm_id": 3771724356,
+                        "tourism": "guest_house",
+                        "website": "https://www.messina41.it/",
+                        "osm_type": "n"
+                    }
+                },
+                "website": "https://www.messina41.it/",
+                "contact": {
+                    "phone": "+39 090 361303",
+                    "email": "info@messina41.it"
+                },
+                "place_id": "516185b6f7041c2f4059a5781bc352194340f00103f90144f2cfe00000000092030a4d657373696e61203431"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.554725399999997,
+                    38.19783820001002
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hotel Touring",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "postcode": "98122",
+                "suburb": "IV Circoscrizione",
+                "quarter": "Maregrosso",
+                "street": "Via Nicola Scotto",
+                "lon": 15.5591776,
+                "lat": 38.1843545,
+                "formatted": "Hotel Touring, Via Nicola Scotto, 98122 Messina ME, Italy",
+                "address_line1": "Hotel Touring",
+                "address_line2": "Via Nicola Scotto, 98122 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.hotel",
+                    "internet_access"
+                ],
+                "details": [
+                    "details",
+                    "details.accommodation",
+                    "details.contact",
+                    "details.facilities"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Hotel Touring",
+                        "rooms": 15,
+                        "stars": 3,
+                        "osm_id": 4438139742,
+                        "tourism": "hotel",
+                        "website": "http://www.hoteltouring-me.it/",
+                        "osm_type": "n",
+                        "contact:fax": "+39 090 6513065",
+                        "contact:email": "info@hoteltouring-me.it",
+                        "contact:phone": "+39 090 2938851",
+                        "internet_access": "yes"
+                    }
+                },
+                "website": "http://www.hoteltouring-me.it/",
+                "contact": {
+                    "phone": "+39 090 2938851",
+                    "email": "info@hoteltouring-me.it",
+                    "fax": "+39 090 6513065"
+                },
+                "facilities": {
+                    "internet_access": true
+                },
+                "accommodation": {
+                    "stars": 3,
+                    "rooms": 15
+                },
+                "place_id": "51c24fc1864c1e2f4059de33a2ed98174340f00103f9015ea388080100000092030d486f74656c20546f7572696e67"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.559177600000002,
+                    38.1843545000081
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Borgo Musolino",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "postcode": "98127",
+                "suburb": "VI Circoscrizione",
+                "street": "Strada Provinciale 50 bis di Dinnammare",
+                "lon": 15.4821556,
+                "lat": 38.2038824,
+                "formatted": "Borgo Musolino, Strada Provinciale 50 bis di Dinnammare, 98127 Messina ME, Italy",
+                "address_line1": "Borgo Musolino",
+                "address_line2": "Strada Provinciale 50 bis di Dinnammare, 98127 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.guest_house"
+                ],
+                "details": [
+                    "details",
+                    "details.contact"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Borgo Musolino",
+                        "email": "info@borgomusolino.com",
+                        "phone": "+39 3938242575",
+                        "osm_id": 4688798825,
+                        "tourism": "guest_house",
+                        "website": "https://borgomusolino.com/",
+                        "osm_type": "n",
+                        "guest_house": "agritourism"
+                    }
+                },
+                "website": "https://borgomusolino.com/",
+                "contact": {
+                    "phone": "+39 3938242575",
+                    "email": "info@borgomusolino.com"
+                },
+                "place_id": "519f2a4b19ddf62e40596b2388d1181a4340f00103f901696479170100000092030e426f72676f204d75736f6c696e6f"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.482155599999997,
+                    38.203882400010876
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "La casa di Pace",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "postcode": "98168",
+                "district": "Porticatello",
+                "suburb": "VI Circoscrizione",
+                "street": "Via Fiumara Località Pace",
+                "lon": 15.5745046,
+                "lat": 38.2365283,
+                "formatted": "La casa di Pace, Via Fiumara Località Pace, 98168 Messina ME, Italy",
+                "address_line1": "La casa di Pace",
+                "address_line2": "Via Fiumara Località Pace, 98168 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.apartment"
+                ],
+                "details": [
+                    "details",
+                    "details.contact"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "La casa di Pace",
+                        "phone": "+39 347 7038844",
+                        "osm_id": 6331104527,
+                        "tourism": "apartment",
+                        "website": "https://www.lacasadipace.it/",
+                        "osm_type": "n",
+                        "number_of_apartments": 2
+                    }
+                },
+                "website": "https://www.lacasadipace.it/",
+                "contact": {
+                    "phone": "+39 347 7038844"
+                },
+                "place_id": "5199cd887725262f40599892308f461e4340f00103f9010ffd5c790100000092030f4c6120636173612064692050616365"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5745046,
+                    38.23652830001555
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "La Casa a Mare",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "village": "San Saba",
+                "postcode": "98162",
+                "district": "Contrada Mella",
+                "suburb": "VI Circoscrizione",
+                "street": "Strada statale Settentrionale Sicula",
+                "lon": 15.4917129,
+                "lat": 38.2779236,
+                "formatted": "La Casa a Mare, Strada statale Settentrionale Sicula, 98162 Messina ME, Italy",
+                "address_line1": "La Casa a Mare",
+                "address_line2": "Strada statale Settentrionale Sicula, 98162 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.guest_house"
+                ],
+                "details": [
+                    "details",
+                    "details.contact"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "La Casa a Mare",
+                        "osm_id": 4414830163,
+                        "tourism": "guest_house",
+                        "osm_type": "n",
+                        "contact:email": "info@lacasaamare.com",
+                        "contact:phone": "+39 347 132 9835",
+                        "contact:website": "http://www.lacasaamare.com/"
+                    }
+                },
+                "website": "http://www.lacasaamare.com/",
+                "contact": {
+                    "phone": "+39 347 132 9835",
+                    "email": "info@lacasaamare.com"
+                },
+                "place_id": "51e90a11cbc1fb2e40597e70220093234340f00103f90153f624070100000092030e4c6120436173612061204d617265"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.491712899999998,
+                    38.27792360002148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Celona B&B",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "village": "Orto Liuzzo",
+                "hamlet": "Contrada Marmora",
+                "postcode": "98153",
+                "suburb": "VI Circoscrizione",
+                "street": "Strada statale Settentrionale Sicula",
+                "housenumber": "km 31.390",
+                "lon": 15.4591906,
+                "lat": 38.2531774,
+                "formatted": "Celona B&B, Strada statale Settentrionale Sicula, km 31.390, 98153 Messina ME, Italy",
+                "address_line1": "Celona B&B",
+                "address_line2": "Strada statale Settentrionale Sicula, km 31.390, 98153 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.hotel"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Celona B&B",
+                        "osm_id": 6883666711,
+                        "tourism": "hotel",
+                        "website": "http://www.fratellicelona.it",
+                        "osm_type": "n",
+                        "addr:street": "SS113dir",
+                        "addr:housenumber": "km 31.390"
+                    }
+                },
+                "website": "http://www.fratellicelona.it",
+                "place_id": "51e042c3071beb2e4059e794f61d68204340f00103f901176b4c9a0100000092030a43656c6f6e6120422642"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4591906,
+                    38.253177400017925
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hotel Residence Empedocle",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "postcode": "98122",
+                "district": "Fondo Ruggeri e Puglisi",
+                "suburb": "IV Circoscrizione",
+                "street": "Via Marcello Malpighi",
+                "lon": 15.547511660936971,
+                "lat": 38.1917521,
+                "formatted": "Hotel Residence Empedocle, Via Marcello Malpighi, 98122 Messina ME, Italy",
+                "address_line1": "Hotel Residence Empedocle",
+                "address_line2": "Via Marcello Malpighi, 98122 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.hotel",
+                    "building",
+                    "building.accommodation"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Hotel Residence Empedocle",
+                        "osm_id": -2189354,
+                        "tourism": "hotel",
+                        "building": "yes",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "5150cecb7253182f4059443d33558b184340f00101f9012a68210000000000920319486f74656c205265736964656e636520456d7065646f636c65"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.547511660936976,
+                    38.191752100009154
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rifugio San Calogero",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "suburb": "I Circoscrizione",
+                "street": "Dorsale dei Peloritani",
+                "lon": 15.43614960027141,
+                "lat": 38.1061979,
+                "formatted": "Rifugio San Calogero, Dorsale dei Peloritani, Messina ME, Italy",
+                "address_line1": "Rifugio San Calogero",
+                "address_line2": "Dorsale dei Peloritani, Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.hut",
+                    "building"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Rifugio San Calogero",
+                        "osm_id": 161473702,
+                        "tourism": "wilderness_hut",
+                        "alt_name": "Rifugio San Calorio",
+                        "building": "yes",
+                        "name:scn": "Rifuggiu San Caloriu",
+                        "operator": "Azienda Forestale Regionale",
+                        "osm_type": "w"
+                    }
+                },
+                "operator": "Azienda Forestale Regionale",
+                "name_other": {
+                    "alt_name": "Rifugio San Calorio"
+                },
+                "place_id": "518aa81a004fdf2e40590ab28de4970d4340f00102f901a6e49f09000000009203145269667567696f2053616e2043616c6f6765726f"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.43614960027141,
+                    38.106197899996985
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Europa Palace Hotel",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "village": "Zaffaria",
+                "postcode": "98128",
+                "district": "Roccamatore",
+                "suburb": "I Circoscrizione",
+                "street": "Strada Statale 114",
+                "lon": 15.525317214305705,
+                "lat": 38.14259885,
+                "formatted": "Europa Palace Hotel, Strada Statale 114, 98128 Messina ME, Italy",
+                "address_line1": "Europa Palace Hotel",
+                "address_line2": "Strada Statale 114, 98128 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.hotel"
+                ],
+                "details": [
+                    "details.accommodation"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Europa Palace Hotel",
+                        "stars": 4,
+                        "osm_id": 169950433,
+                        "tourism": "hotel",
+                        "osm_type": "w"
+                    }
+                },
+                "accommodation": {
+                    "stars": 4
+                },
+                "place_id": "510ef0be60f60c2f40596e9adaad40124340f00102f901e13c210a000000009203134575726f70612050616c61636520486f74656c"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.525317214305712,
+                    38.14259885000216
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rifugio Case Maressa",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "suburb": "I Circoscrizione",
+                "street": "Dorsale dei Peloritani",
+                "lon": 15.458667915570835,
+                "lat": 38.1408958,
+                "formatted": "Rifugio Case Maressa, Dorsale dei Peloritani, Messina ME, Italy",
+                "address_line1": "Rifugio Case Maressa",
+                "address_line2": "Dorsale dei Peloritani, Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.hut",
+                    "building"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Rifugio Case Maressa",
+                        "osm_id": 170600708,
+                        "tourism": "wilderness_hut",
+                        "building": "yes",
+                        "name:scn": "Rifuggiu Casi Maressa",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51d2336285d6ea2e40597493a2df08124340f00102f90104292b0a000000009203145269667567696f2043617365204d617265737361"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.458667915570832,
+                    38.140895800001914
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Capo Paloro Resort",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "village": "Mortelle",
+                "postcode": "98164",
+                "district": "Margi",
+                "suburb": "VI Circoscrizione",
+                "street": "Via Palinuro",
+                "lon": 15.63623376296734,
+                "lat": 38.26452415,
+                "formatted": "Capo Paloro Resort, Via Palinuro, 98164 Messina ME, Italy",
+                "address_line1": "Capo Paloro Resort",
+                "address_line2": "Via Palinuro, 98164 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.hotel"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Capo Paloro Resort",
+                        "osm_id": 176119055,
+                        "tourism": "hotel",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "518c1c896ec0452f405906ab66eddb214340f00102f9010f5d7f0a000000009203124361706f2050616c6f726f205265736f7274"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.636233762967343,
+                    38.26452415001954
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rifugio Lupo",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "postcode": "98136",
+                "suburb": "I Circoscrizione",
+                "street": "Trazzera Lupo - Pizzo Bottino",
+                "lon": 15.457235254463795,
+                "lat": 38.11417125,
+                "formatted": "Rifugio Lupo, Trazzera Lupo - Pizzo Bottino, 98136 Messina ME, Italy",
+                "address_line1": "Rifugio Lupo",
+                "address_line2": "Trazzera Lupo - Pizzo Bottino, 98136 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.hut",
+                    "building"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Rifugio Lupo",
+                        "osm_id": 220248128,
+                        "tourism": "wilderness_hut",
+                        "building": "yes",
+                        "name:scn": "Rifuggiu Lupu",
+                        "osm_type": "w",
+                        "addr:housename": "rifugio lupo"
+                    }
+                },
+                "place_id": "51200041bd1aea2e40595271dc299d0e4340f00102f90140b8200d0000000092030c5269667567696f204c75706f"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.457235254463797,
+                    38.11417124999811
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rifugio Ferraro",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "hamlet": "Sant'Anna",
+                "postcode": "98153",
+                "suburb": "VI Circoscrizione",
+                "street": "Sentiero Colle San Rizzo - Ponte Gallo",
+                "lon": 15.4936574,
+                "lat": 38.21977545,
+                "formatted": "Rifugio Ferraro, Sentiero Colle San Rizzo - Ponte Gallo, 98153 Messina ME, Italy",
+                "address_line1": "Rifugio Ferraro",
+                "address_line2": "Sentiero Colle San Rizzo - Ponte Gallo, 98153 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.hut",
+                    "building"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Rifugio Ferraro",
+                        "osm_id": 284385826,
+                        "tourism": "wilderness_hut",
+                        "building": "yes",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5156dba8a9c0fc2e40599522199a211c4340f00102f9012262f3100000000092030f5269667567696f204665727261726f"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4936574,
+                    38.21977545001315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Residence dei Margi",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "postcode": "98164",
+                "district": "Margi",
+                "suburb": "VI Circoscrizione",
+                "street": "Via Torretta",
+                "lon": 15.6346157,
+                "lat": 38.2623689,
+                "formatted": "Residence dei Margi, Via Torretta, 98164 Messina ME, Italy",
+                "address_line1": "Residence dei Margi",
+                "address_line2": "Via Torretta, 98164 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.hotel"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Residence dei Margi",
+                        "osm_id": 1491212713,
+                        "tourism": "hotel",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "51690e5a59ec442f4059fa88da4d95214340f00103f901a919e258000000009203135265736964656e636520646569204d61726769"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6346157,
+                    38.26236890001924
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Grand Hotel Liberty",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "postcode": "98122",
+                "district": "Fondo Basicò",
+                "suburb": "IV Circoscrizione",
+                "street": "Via Primo Settembre",
+                "lon": 15.5596812,
+                "lat": 38.1862987,
+                "formatted": "Grand Hotel Liberty, Via Primo Settembre, 98122 Messina ME, Italy",
+                "address_line1": "Grand Hotel Liberty",
+                "address_line2": "Via Primo Settembre, 98122 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.hotel"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Grand Hotel Liberty",
+                        "osm_id": 1656249153,
+                        "tourism": "hotel",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "513e5fc4888e1e2f405962e9c3a2d8174340f00103f901415bb862000000009203134772616e6420486f74656c204c696265727479"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.559681199999996,
+                    38.18629870000838
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Royal Palace Hotel",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "postcode": "98122",
+                "suburb": "IV Circoscrizione",
+                "quarter": "Maregrosso",
+                "street": "Via Tommaso Cannizzaro",
+                "lon": 15.5584169,
+                "lat": 38.1849071,
+                "formatted": "Royal Palace Hotel, Via Tommaso Cannizzaro, 98122 Messina ME, Italy",
+                "address_line1": "Royal Palace Hotel",
+                "address_line2": "Via Tommaso Cannizzaro, 98122 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.hotel"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Royal Palace Hotel",
+                        "osm_id": 1656333736,
+                        "tourism": "hotel",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "514011e6d1e81d2f4059aaaa2d09ab174340f00103f901a8a5b96200000000920312526f79616c2050616c61636520486f74656c"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.558416899999997,
+                    38.184907100008175
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Antica Dimora",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "postcode": "98125",
+                "district": "Fondo Cassibile",
+                "suburb": "III Circoscrizione",
+                "street": "Via Consolare Valeria",
+                "lon": 15.5378529,
+                "lat": 38.1627893,
+                "formatted": "Antica Dimora, Via Consolare Valeria, 98125 Messina ME, Italy",
+                "address_line1": "Antica Dimora",
+                "address_line2": "Via Consolare Valeria, 98125 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.guest_house"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Antica Dimora",
+                        "osm_id": 1657262150,
+                        "tourism": "guest_house",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "51171e8f7461132f405986d49f47d6144340f00103f90146d0c7620000000092030d416e746963612044696d6f7261"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.537852900000003,
+                    38.16278930000503
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hotel Mirage",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "postcode": "98122",
+                "suburb": "IV Circoscrizione",
+                "quarter": "Maregrosso",
+                "street": "Via Nicola Scotto",
+                "lon": 15.5596165,
+                "lat": 38.1840399,
+                "formatted": "Hotel Mirage, Via Nicola Scotto, 98122 Messina ME, Italy",
+                "address_line1": "Hotel Mirage",
+                "address_line2": "Via Nicola Scotto, 98122 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.hotel"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Hotel Mirage",
+                        "osm_id": 1659066813,
+                        "tourism": "hotel",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "519e9acb0d861e2f4059cbd8939e8e174340f00103f901bd59e3620000000092030c486f74656c204d6972616765"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5596165,
+                    38.18403990000805
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Grand Hotel Lido Giardino delle Palme",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "village": "Mortelle",
+                "postcode": "98164",
+                "suburb": "Granatari",
+                "street": "Strada Provinciale 48 di Mortelle",
+                "lon": 15.6304446,
+                "lat": 38.2714753,
+                "formatted": "Grand Hotel Lido Giardino delle Palme, Strada Provinciale 48 di Mortelle, 98164 Messina ME, Italy",
+                "address_line1": "Grand Hotel Lido Giardino delle Palme",
+                "address_line2": "Strada Provinciale 48 di Mortelle, 98164 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.hotel",
+                    "internet_access"
+                ],
+                "details": [
+                    "details.accommodation",
+                    "details.facilities"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Grand Hotel Lido Giardino delle Palme",
+                        "stars": 3,
+                        "osm_id": 2281855864,
+                        "tourism": "hotel",
+                        "osm_type": "n",
+                        "internet_access": "wlan"
+                    }
+                },
+                "facilities": {
+                    "internet_access": true
+                },
+                "accommodation": {
+                    "stars": 3
+                },
+                "place_id": "512ee175a2c9422f40594aa1dfb3bf224340f00103f901785b0288000000009203254772616e6420486f74656c204c69646f204769617264696e6f2064656c6c652050616c6d65"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6304446,
+                    38.271475300020555
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hotel Cairoli",
+                "country": "Italy",
+                "country_code": "it",
+                "state": "Sicily",
+                "county": "Messina",
+                "city": "Messina",
+                "postcode": "98122",
+                "suburb": "IV Circoscrizione",
+                "quarter": "Il Tirone",
+                "street": "Viale San Martino",
+                "housenumber": "63",
+                "lon": 15.5568957,
+                "lat": 38.1864636,
+                "formatted": "Hotel Cairoli, Viale San Martino, 63, 98122 Messina ME, Italy",
+                "address_line1": "Hotel Cairoli",
+                "address_line2": "Viale San Martino, 63, 98122 Messina ME, Italy",
+                "categories": [
+                    "accommodation",
+                    "accommodation.hotel"
+                ],
+                "details": [
+                    "details.accommodation"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Hotel Cairoli",
+                        "stars": 2,
+                        "osm_id": 2546583769,
+                        "tourism": "hotel",
+                        "osm_type": "n",
+                        "addr:street": "Viale San Martino",
+                        "addr:postcode": 98122,
+                        "addr:housenumber": 63
+                    }
+                },
+                "accommodation": {
+                    "stars": 2
+                },
+                "place_id": "51e790e56e211d2f40591bf70b0ade174340f00103f901d9c8c9970000000092030d486f74656c20436169726f6c69"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.556895699999997,
+                    38.1864636000084
+                ]
+            }
+        }
+    ]
+}

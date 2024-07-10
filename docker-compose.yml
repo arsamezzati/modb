@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql_container
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: mydatabase
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3307:3306" # Change the local port to 3307
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+  mongo:
+    image: mongo:latest
+    container_name: mongo_container
+    ports:
+      - "27018:27017" # Change the local port to 27018
+    volumes:
+      - mongo-data:/data/db
+
+  neo4j:
+    image: neo4j:latest
+    container_name: neo4j_container
+    environment:
+      - NEO4J_AUTH=none
+    ports:
+      - "7475:7474" # Change the local HTTP port to 7475
+      - "7688:7687" # Change the local Bolt port to 7688
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: phpmyadmin_container
+    environment:
+      PMA_HOST: mysql_container
+      MYSQL_ROOT_PASSWORD: root_password
+    ports:
+      - "8080:80" # Expose phpMyAdmin on port 8080
+
+volumes:
+  mysql-data:
+  mongo-data:

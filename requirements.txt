@@ -1,0 +1,6 @@
+Flask
+neo4j
+pymysql
+pymongo
+streamlit
+requests
