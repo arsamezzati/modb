@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS modb;
+
+USE modb;
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    type INT DEFAULT 1
+);
+
+CREATE TABLE IF NOT EXISTS favorites (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    item VARCHAR(255),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
