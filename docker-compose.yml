@@ -1,0 +1,97 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql_container
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: modb
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./sql:/docker-entrypoint-initdb.d/sql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+
+  mongo:
+    image: mongo:latest
+    container_name: mongo_container
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongo-data:/data/db
+      - ./mongo:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: "echo 'db.runCommand(\"ping\").ok' | mongo localhost:27017/test --quiet"
+      interval: 10s
+      timeout: 10s
+      retries: 5
+
+  neo4j:
+    image: neo4j:latest
+    container_name: neo4j_container
+    environment:
+      - NEO4J_AUTH=none
+    ports:
+      - "7475:7474"
+      - "7688:7687"
+    healthcheck:
+      test: ["CMD", "curl", "-fsSL", "http://localhost:7474"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: phpmyadmin_container
+    environment:
+      PMA_HOST: mysql_container
+      MYSQL_ROOT_PASSWORD: root_password
+    ports:
+      - "8080:80"
+
+  flask-app:
+    build:
+      context: ./app
+    container_name: flask_app_container
+    ports:
+      - "5001:5000"
+    depends_on:
+      - mysql
+      - mongo
+      - neo4j
+
+  streamlit-app:
+    build:
+      context: ./streamlit
+    container_name: streamlit_app_container
+    ports:
+      - "8501:8501"
+    depends_on:
+      - flask-app
+
+  init:
+    build:
+      context: ./scripts
+    container_name: init_container
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d/sql
+      - ./scripts:/scripts
+    depends_on:
+      mysql:
+        condition: service_healthy
+      mongo:
+        condition: service_healthy
+      neo4j:
+        condition: service_healthy
+
+volumes:
+  mysql-data:
+  mongo-data:
